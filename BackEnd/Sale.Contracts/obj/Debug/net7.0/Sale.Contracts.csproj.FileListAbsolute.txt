@@ -1,0 +1,12 @@
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\bin\Debug\net7.0\Sale.Contracts.deps.json
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\bin\Debug\net7.0\Sale.Contracts.dll
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\bin\Debug\net7.0\Sale.Contracts.pdb
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\obj\Debug\net7.0\Sale.Contracts.csproj.AssemblyReference.cache
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\obj\Debug\net7.0\Sale.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\obj\Debug\net7.0\Sale.Contracts.AssemblyInfoInputs.cache
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\obj\Debug\net7.0\Sale.Contracts.AssemblyInfo.cs
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\obj\Debug\net7.0\Sale.Contracts.csproj.CoreCompileInputs.cache
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\obj\Debug\net7.0\Sale.Contracts.dll
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\obj\Debug\net7.0\refint\Sale.Contracts.dll
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\obj\Debug\net7.0\Sale.Contracts.pdb
+F:\Project 2023\Angular\SaleAPI_V2\Sale.Contracts\obj\Debug\net7.0\ref\Sale.Contracts.dll
