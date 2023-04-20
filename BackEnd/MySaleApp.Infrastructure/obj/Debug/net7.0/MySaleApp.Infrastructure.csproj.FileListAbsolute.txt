@@ -1,0 +1,17 @@
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\bin\Debug\net7.0\MySaleApp.Infrastructure.deps.json
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\bin\Debug\net7.0\MySaleApp.Infrastructure.dll
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\bin\Debug\net7.0\MySaleApp.Infrastructure.pdb
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\obj\Debug\net7.0\MySaleApp.Infrastructure.csproj.AssemblyReference.cache
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\obj\Debug\net7.0\MySaleApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\obj\Debug\net7.0\MySaleApp.Infrastructure.AssemblyInfoInputs.cache
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\obj\Debug\net7.0\MySaleApp.Infrastructure.AssemblyInfo.cs
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\obj\Debug\net7.0\MySaleApp.Infrastructure.csproj.CoreCompileInputs.cache
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\obj\Debug\net7.0\MySaleApp.Infrastructure.dll
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\obj\Debug\net7.0\refint\MySaleApp.Infrastructure.dll
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\obj\Debug\net7.0\MySaleApp.Infrastructure.pdb
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\obj\Debug\net7.0\ref\MySaleApp.Infrastructure.dll
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\bin\Debug\net7.0\MySaleApp.Application.dll
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\bin\Debug\net7.0\MySaleApp.Domain.dll
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\bin\Debug\net7.0\MySaleApp.Application.pdb
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\bin\Debug\net7.0\MySaleApp.Domain.pdb
+F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Infrastructure\obj\Debug\net7.0\MySaleApp.Infrastructure.csproj.CopyComplete
