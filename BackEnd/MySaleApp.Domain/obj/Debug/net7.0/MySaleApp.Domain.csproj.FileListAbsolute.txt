@@ -12,3 +12,17 @@ F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Domain\obj\Debug\net7.0\M
 F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Domain\obj\Debug\net7.0\ref\MySaleApp.Domain.dll
 F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Domain\bin\Debug\net7.0\MySaleApp.Domain.runtimeconfig.json
 F:\Project 2023\Angular\SaleApp_V3\MySaleApp\MySaleApp.Domain\obj\Debug\net7.0\MySaleApp.Domain.genruntimeconfig.cache
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\bin\Debug\net7.0\MySaleApp.Domain.deps.json
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\bin\Debug\net7.0\MySaleApp.Domain.runtimeconfig.json
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\bin\Debug\net7.0\MySaleApp.Domain.dll
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\bin\Debug\net7.0\MySaleApp.Domain.pdb
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\obj\Debug\net7.0\MySaleApp.Domain.csproj.AssemblyReference.cache
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\obj\Debug\net7.0\MySaleApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\obj\Debug\net7.0\MySaleApp.Domain.AssemblyInfoInputs.cache
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\obj\Debug\net7.0\MySaleApp.Domain.AssemblyInfo.cs
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\obj\Debug\net7.0\MySaleApp.Domain.csproj.CoreCompileInputs.cache
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\obj\Debug\net7.0\MySaleApp.Domain.dll
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\obj\Debug\net7.0\refint\MySaleApp.Domain.dll
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\obj\Debug\net7.0\MySaleApp.Domain.pdb
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\obj\Debug\net7.0\MySaleApp.Domain.genruntimeconfig.cache
+F:\Project 2023\Angular\MySaleApp_V2\BackEnd\MySaleApp.Domain\obj\Debug\net7.0\ref\MySaleApp.Domain.dll
