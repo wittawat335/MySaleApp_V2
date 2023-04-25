@@ -25,7 +25,6 @@ export class LayoutComponent implements OnInit {
   }
   getMenu() {
     const user = this.utService.getSessionUser();
-    console.log(user);
     if (user != null) {
       this.userName = user.fullName;
       this.roleUser = user.roleName;

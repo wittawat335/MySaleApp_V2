@@ -11,6 +11,8 @@ import { ReportComponent } from './pages/report/report.component';
 import { SaleHistoryComponent } from './pages/sale-history/sale-history.component';
 import { SharedModule } from 'src/app/shared/shared/shared.module';
 import { ProductDialogComponent } from './dialogs/product-dialog/product-dialog.component';
+import { UserDialogComponent } from './dialogs/user-dialog/user-dialog.component';
+import { SaleDetailDialogComponent } from './dialogs/sale-detail-dialog/sale-detail-dialog.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { ProductDialogComponent } from './dialogs/product-dialog/product-dialog.
     ReportComponent,
     SaleHistoryComponent,
     ProductDialogComponent,
+    UserDialogComponent,
+    SaleDetailDialogComponent,
   ],
   imports: [CommonModule, LayoutRoutingModule, SharedModule],
 })

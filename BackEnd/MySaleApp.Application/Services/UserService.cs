@@ -103,7 +103,7 @@ namespace MySaleApp.Application.Services
                 if (checkDuplicate.FirstOrDefault() != null)
                     throw new TaskCanceledException("Email '" + model.Email + "' is already taken");
 
-                model.PasswordHash = _service.Hash(model.PasswordHash!);
+                model.PasswordHash = _service.Hash(model.Password!);
                 var createUser = await _repository.Create(_mapper.Map<User>(model));
                 if (createUser.UserId == null)
                     throw new TaskCanceledException("");
@@ -131,7 +131,8 @@ namespace MySaleApp.Application.Services
                 UpdateUser.FullName = userMap.FullName;
                 UpdateUser.Email = userMap.Email;
                 UpdateUser.RoleId = userMap.RoleId;
-                UpdateUser.PasswordHash = _service.Hash(userMap.PasswordHash!);
+                UpdateUser.Password = userMap.Password;
+                UpdateUser.PasswordHash = _service.Hash(userMap.Password!);
                 UpdateUser.IsActive = userMap.IsActive;
 
                 bool updated = await _repository.Update(UpdateUser);

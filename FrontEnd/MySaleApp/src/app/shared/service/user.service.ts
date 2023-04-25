@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { ResponseApi } from '../Interface/response-api';
 import { Login } from '../Interface/login';
+import { Guid } from 'guid-typescript';
 
 @Injectable({
   providedIn: 'root',
@@ -29,7 +30,7 @@ export class UserService {
     return this.http.put<ResponseApi>(`${this.urlApi}/Update`, req);
   }
 
-  Delete(id: number): Observable<ResponseApi> {
+  Delete(id: string): Observable<ResponseApi> {
     return this.http.delete<ResponseApi>(`${this.urlApi}/${id}`);
   }
 }

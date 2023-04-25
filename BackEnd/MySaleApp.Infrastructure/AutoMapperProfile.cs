@@ -53,6 +53,10 @@ namespace MySaleApp.Infrastructure
             // ขาออก
             CreateMap<User, UserDTO>()
                .ForMember(x =>
+               x.UserId,
+               opt => opt.MapFrom(origin => origin.UserId.ToString())
+               )
+               .ForMember(x =>
                x.RoleName,
                opt => opt.MapFrom(origin => origin.Role.Name)
                )
@@ -60,7 +64,7 @@ namespace MySaleApp.Infrastructure
                x.IsActive,
                opt => opt.MapFrom(origin => origin.IsActive == true ? 1 : 0)
                );
-
+              
             CreateMap<User, SessionDTO>()
                 .ForMember(x =>
                 x.RoleName,
@@ -68,10 +72,14 @@ namespace MySaleApp.Infrastructure
                 );
             //ขาเข้า
             CreateMap<UserDTO, User>()
+                .ForMember(x => 
+                x.UserId,
+                opt => opt.MapFrom(origin => new Guid(origin.UserId))
+                )
                 .ForMember(x =>
                 x.Role,
                 opt => opt.Ignore()
-                )
+                )            
                .ForMember(x =>
                x.IsActive,
                opt => opt.MapFrom(origin => origin.IsActive == 1 ? true : false)
