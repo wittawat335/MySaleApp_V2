@@ -5,6 +5,6 @@ export interface Sale {
   documentNumber?: string;
   paymentType: string;
   totalText: string;
-  recordDate?: string;
+  createDate?: string;
   saleDetails: SalesDetail[];
 }

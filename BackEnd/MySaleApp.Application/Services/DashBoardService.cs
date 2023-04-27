@@ -56,7 +56,7 @@ namespace MySaleApp.Application.Services
                 result = tbSale.Select(x => x.Total).Sum(y => y.Value);
             }
 
-            return Convert.ToString(result, new CultureInfo("dd/MM/yyyy"));
+            return Convert.ToString(result, new CultureInfo("en-US"));
         }
         private async Task<int> totalProduct()
         {

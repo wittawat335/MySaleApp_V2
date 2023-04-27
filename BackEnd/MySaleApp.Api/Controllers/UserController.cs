@@ -94,13 +94,14 @@ namespace MySaleApp.Api.Controllers
             return Ok(response);
         }
 
-        [HttpDelete("{id:Guid}")]
-        public async Task<IActionResult> Delete(Guid id)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(string id)
         {
             var response = new Response<bool>();
             try
             {
-                response.value = await _userService.Delete(id);
+                var userId = new Guid(id);
+                response.value = await _userService.Delete(userId);
                 response.status = Constants.Status.True;
                 response.message = Constants.StatusMessage.Delete_Action;
             }

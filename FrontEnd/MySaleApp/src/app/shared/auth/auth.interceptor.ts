@@ -23,6 +23,7 @@ export class AuthInterceptor implements HttpInterceptor {
           'Bearer ' + localStorage.getItem('token')
         ),
       });
+      console.log(clonedReq);
       return next.handle(clonedReq).pipe(
         tap(
           (succ) => {},

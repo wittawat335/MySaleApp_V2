@@ -39,6 +39,7 @@ export class LoginComponent implements OnInit {
     this._userService.Login(req).subscribe({
       next: (data) => {
         if (data.status) {
+          localStorage.setItem('token', data.value.token);
           this.utService.setSessionUser(data.value);
           this.router.navigate(['pages']);
         } else {

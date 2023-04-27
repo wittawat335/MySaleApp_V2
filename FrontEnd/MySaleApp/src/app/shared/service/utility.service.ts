@@ -17,17 +17,18 @@ export class UtilityService {
   }
 
   setSessionUser(userSession: Session) {
-    localStorage.setItem('token', JSON.stringify(userSession));
+    localStorage.setItem('user', JSON.stringify(userSession));
   }
 
   getSessionUser() {
-    const data = localStorage.getItem('token');
+    const data = localStorage.getItem('user');
     const token = JSON.parse(data!);
 
     return token;
   }
 
   removeSessionUser() {
+    localStorage.removeItem('user');
     localStorage.removeItem('token');
   }
 }

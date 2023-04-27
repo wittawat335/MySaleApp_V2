@@ -35,7 +35,7 @@ namespace MySaleApp.Infrastructure.Repositories
                     }
                     await _dbcontext.SaveChangesAsync();
 
-                    var docNumber = _dbcontext.DocumentNumbers.First();
+                    var docNumber = _dbcontext.DocumentNumbers.FirstOrDefault();
 
                     docNumber.LastNumber = docNumber.LastNumber + 1;
                     docNumber.CreateDate = DateTime.Now;

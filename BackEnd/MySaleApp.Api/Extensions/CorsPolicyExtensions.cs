@@ -6,12 +6,13 @@ namespace MySaleApp.Api.Extensions
     {
         public static void ConfigureCorsPolicy(this IServiceCollection service, IConfiguration configuration)
         {
+            var url = configuration.GetSection(Constants.AppSettings.Client_URL).Value!;
             service.AddCors(opt =>
             {
                 opt.AddPolicy("newPolicy", builder =>
                     {
                         builder
-                        .WithOrigins(configuration.GetSection(Constants.AppSettings.Client_URL).Value!)
+                        .WithOrigins(url)
                         .AllowAnyMethod()
                         .AllowAnyHeader();
                     });

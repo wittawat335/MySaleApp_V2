@@ -55,7 +55,7 @@ namespace MySaleApp.Application.Services
 
                 User checkUser = query.Include(x => x.Role).First();
                 if (checkUser.IsActive == true)
-                    checkUser.Token = CreateToken(checkUser, key);
+                    checkUser.Token = Token(checkUser, key);
                 else
                     throw new TaskCanceledException("");
 
@@ -74,8 +74,8 @@ namespace MySaleApp.Application.Services
                 List<Claim> claims = new List<Claim>
                 {
                     new Claim("UserId", user.UserId.ToString()),
-                    new Claim("FullName", user.FullName!),
-                    new Claim("Email", user.Email!),
+                    //new Claim("FullName", user.FullName!),
+                    //new Claim("Email", user.Email!),
                 };
 
                 var symmetrickey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
@@ -93,6 +93,27 @@ namespace MySaleApp.Application.Services
             {
                 throw;
             }
+        }
+
+        public string Token(User user, string key)
+        {
+            try
+            {
+                var tokenDescriptor = new SecurityTokenDescriptor
+                {
+                    Subject = new ClaimsIdentity(new Claim[]
+                    {
+                        new Claim("UserID",user.UserId.ToString())
+                    }),
+                    Expires = DateTime.UtcNow.AddDays(1),
+                    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)), SecurityAlgorithms.HmacSha256Signature)
+                };
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var securityToken = tokenHandler.CreateToken(tokenDescriptor);
+                var token = tokenHandler.WriteToken(securityToken);
+                return token;
+            }
+            catch { throw; }
         }
 
         public async Task<UserDTO> Create(UserDTO model)
